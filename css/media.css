@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+  .navigation_bar a {
+    margin: 30px;
+  }
+  .background {
+    grid-template-columns: 1fr;
+  }
+  li,
+  a {
+    margin: 0;
+  }
+  .wrapper_content {
+    height: 100vh;
+  }
+  .principal_wrapper_image {
+    background-image: none;
+    display: none;
+  }
+  .wrapper_content__title {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .wrapper_content__description {
+    width: 80%;
+    margin: 3% auto;
+    font-size: 1.7em;
+    text-align: center;
+  }
+  .wrapper_content__articlelist {
+    margin: 5% auto 0;
+    width: 40%;
+    justify-content: space-around;
+    font-size: 1.7em;
+  }
+  .footer_line {
+    display: none;
+  }
+  .footer {
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+  }
+  /* --------Parte Motos */
+  .hero__title {
+    font-size: 2em;
+  }
+  .hero__description {
+    font-size: 1.2em;
+  }
+  .options {
+    grid-template-columns: 80%;
+  }
+  .options article {
+    max-height: 350px;
+    margin-bottom: 200px;
+  }
+  .options__button {
+    top: 50px;
+  }
+  .navbar__items a {
+    margin-right: 40px;
+  }
+  .options p {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navigation_bar {
+    margin: 5%;
+    justify-content: center;
+  }
+  .wrapper_content__title {
+    font-size: 2.7em;
+    margin: 30px;
+  }
+  .wrapper_content__description {
+    font-size: 1.3em;
+  }
+  .wrapper_content__articlelist a {
+    font-size: 1em;
+    margin: 30px;
+  }
+  .footer {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 470px) {
+}

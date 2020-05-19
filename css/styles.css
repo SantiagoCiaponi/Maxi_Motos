@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap");
+/* #1a3365 azul */
+/* #ffbb00 amarillo */
+/* #ff4343 rojo */
+
+/* -----------Presets */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: block;
+  font-family: "Lato", sans-serif;
+  background: #333;
+}
+h1,
+h2,
+h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+}
+/*----------Primer Ventana */
+
+/* -----------Ventana Imágen */
+.background {
+  background: linear-gradient(45deg, #414141, #181818);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.principal_wrapper_image {
+  display: block;
+  height: 100vh;
+}
+.principal_wrapper_image img {
+  min-width: 680px;
+  width: 100%;
+  height: 100%;
+}
+.logo_maxi {
+  position: fixed;
+  width: 200px;
+  left: 40px;
+  top: 20px;
+}
+
+/* --------Ventana Contenidos */
+.wrapper_content {
+  display: flex;
+  flex-direction: column;
+}
+.navigation_bar {
+  margin: 3% 5%;
+  display: flex;
+  justify-content: flex-end;
+  animation: 2000ms fadeIn;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.navigation_bar a {
+  font-size: 1.4em;
+}
+.navigation_bar a:hover {
+  color: #ffbb00;
+}
+.wrapper_content__indice {
+  color: #ffbb00;
+  font-weight: 400;
+}
+.wrapper_content__title {
+  font-size: 3.3em;
+  margin-top: 10%;
+  text-shadow: 2px 2px 50px #021e36;
+}
+.wrapper_content__description {
+  color: white;
+  width: 70%;
+  margin-left: 18%;
+  margin-top: 40px;
+  font-size: 1.4em;
+}
+.wrapper_content__articlelist {
+  width: 70%;
+  margin-left: 18%;
+  margin-top: 10%;
+  font-size: 1.4em;
+}
+.wrapper_content__articlelist a {
+  border: solid 4px #ffbb00;
+  padding: 5px 25px;
+  border-radius: 5%;
+  font-family: "Oswald", sans-serif;
+}
+.wrapper_content__articlelist a:hover {
+  border: solid 4px #b48401;
+}
+
+/* ---------Footer */
+.footer {
+  margin-left: -5%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+.footer hr {
+  margin-top: 8px;
+  width: 250px;
+  color: white;
+  background-color: white;
+  border: solid 1px white;
+}
+.footer__text {
+  color: white;
+  font-size: 1.7em;
+  margin: 5px 10px;
+}
+.icons a {
+  margin: 5px;
+}
+.icons a:hover {
+  color: #fddd85;
+}
+
+/* ___________________________Empieza Sección Motos */
+
+/* --------Header */
+.background_body {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background: #333;
+}
+.header {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #252525;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  animation: 2000ms fadeIn;
+  font-size: 1.3em;
+}
+.navbar__items a:hover {
+  color: #ffbb00;
+}
+.hero img {
+  width: 100%;
+}
+.logo img {
+  width: 200px;
+  margin: 10px 30px;
+}
+
+/* ----------Hero */
+.hero {
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.hero__motorcycle img {
+  width: 100%;
+  height: 100%;
+}
+.hero__content {
+  color: #fff;
+  padding: 0px 40px;
+}
+.hero__motorcycle {
+  padding: 10px;
+}
+.hero__title {
+  font-size: 2.5em;
+  color: #eee;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.hero__description {
+  font-size: 1.5em;
+  color: #ddd;
+  margin: 30px 10px;
+}
+.hero__line {
+  margin: 20px auto;
+  width: 90%;
+}
+/* ---------Options */
+.options {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  height: 350px;
+  justify-content: space-evenly;
+  background-color: #333;
+}
+.options article {
+  padding: 20px;
+  color: white;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0px 0px 20px 0px rgb(65, 65, 65);
+}
+.options article p {
+  font-size: 1.3em;
+}
+.news {
+  background-image: url(../images/bonelli.png);
+  background-size: cover;
+}
+
+.olds {
+  background-image: url(../images/cuatri.png);
+  background-size: cover;
+}
+.options__title {
+  text-shadow: 1px 1px 20px black;
+  font-size: 3.5em;
+  margin-bottom: 7%;
+  font-family: "Oswald", sans-serif;
+}
+
+.options__button {
+  margin: 0;
+  position: relative;
+  bottom: -130px;
+  text-shadow: 1px 1px 20px black;
+  border: solid 4px #ffbb00;
+  padding: 5px 15px;
+  border-radius: 5%;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+}
