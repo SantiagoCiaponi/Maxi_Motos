@@ -12,27 +12,20 @@ const cb500 = new Motos(
   "Honda Cb500 2019",
   "honda_cb500.png",
   `La Honda CB500F es una excelente opción dentro 
-  del mercado de motos naked para el carnet A-2, una moto ligera y de estética 
+  del mercado de motowergdsftsertrsgs naked para el carnet A-2, una moto ligera y de estética 
   deportiva dotada de un motor de dos cilindros con una potencia de 35 kW (47 CV)`,
   "botoncb500"
 );
 
-const cb400 = new Motos(
-  "Honda asdadCb500 2019",
+const ax100 = new Motos(
+  "Ax100",
   "honda_cb500.png",
   `La Honda CB500F es una excelente opción dentro 
   del mercado de motos naked para el carnet A-2, una moto ligera y de estética 
   deportiva dotada de un motor de dos cilindros con una potencia de 35 kW (47 CV)`,
-  "botoncb500"
+  "botonax100"
 );
-const cb300 = new Motos(
-  "Honda asdadCb500 2019",
-  "honda_cb500.png",
-  `La Honda CB500F es una excelente opción dentro 
-  del mercado de motos naked para el carnet A-2, una moto ligera y de estética 
-  deportiva dotada de un motor de dos cilindros con una potencia de 35 kW (47 CV)`,
-  "botoncb500"
-);
+
 function printMoto(moto) {
   const template = NewTemplate(moto);
   const html = document.implementation.createHTMLDocument();
