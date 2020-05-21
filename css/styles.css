@@ -47,8 +47,8 @@ a {
 }
 .logo_maxi {
   position: fixed;
-  width: 200px;
-  left: 40px;
+  width: 350px;
+  left: 170px;
   top: 20px;
 }
 
@@ -61,6 +61,7 @@ a {
   margin: 3% 5%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   animation: 2000ms fadeIn;
 }
 @keyframes fadeIn {
@@ -90,7 +91,6 @@ a {
 .wrapper_content__description {
   color: white;
   width: 70%;
-  font-
   margin-left: 18%;
   margin-top: 40px;
   font-size: 1.4em;
@@ -148,26 +148,35 @@ a {
 }
 .header {
   height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: block;
+
   background-color: #252525;
 }
 .navbar {
+  padding: 0 0 10px 0;
   align-items: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   animation: 2000ms fadeIn;
   font-size: 1.3em;
+}
+.navbar__items a {
+  margin-top: -100px;
 }
 .navbar__items a:hover {
   color: #ffbb00;
 }
 .hero img {
   width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  justify-content: center;
 }
 .logo img {
-  width: 200px;
-  margin: 10px 30px;
+  width: 300px;
+  margin: 10px;
 }
 
 /* ----------Hero */
@@ -192,13 +201,13 @@ a {
 .hero__title {
   font-size: 2.5em;
   color: #eee;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .hero__description {
   font-size: 1.5em;
   color: #ddd;
-  margin: 30px 10px;
+  margin: 20px 10px 10px 10px;
 }
 .hero__line {
   margin: 20px auto;
@@ -227,6 +236,14 @@ a {
   background-image: url(../images/bonelli.png);
   background-size: cover;
 }
+.news_accesorios {
+  background-image: url(../images/accesorios/casco1.png);
+  background-size: cover;
+}
+.olds_accesorios {
+  background-image: url(../images/accesorios/escape1.png);
+  background-size: cover;
+}
 
 .olds {
   background-image: url(../images/cuatri.png);
@@ -242,7 +259,7 @@ a {
 .options__button {
   margin: 0;
   position: relative;
-  bottom: -130px;
+  bottom: -100px;
   text-shadow: 1px 1px 20px black;
   border: solid 4px #ffbb00;
   padding: 5px 15px;
@@ -278,64 +295,6 @@ a {
   font-size: 1.2em;
 }
 .product__button {
-  font-family: "Oswald", sans-serif;
-  padding: 5px 20px;
-  border-radius: 5px;
-  font-size: 1.3em;
-  color: white;
-  background-color: transparent;
-  border: 3px solid #ffbb00;
-  margin-left: 40px;
-}
-.background_modal{
-  background-color: rgba(0, 0, 0, .5);
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  position: absolute;
-}
-/* ----------Modal */
-.modal{
-  background-color: #333;
-  display: none;
-  gap: 10px;
-  justify-items: center;
-  grid-template-rows: repeat(3, 1fr);
-  padding: 20px;
-  width: 70%;
-  height: 90%;
-  position: absolute;
-  top: 20px;
-  box-shadow: 0px 5px 15px 0px black;
-  color: white;
-}
-div .active{
-  display: grid;
-}
-.modal .div{
-  
-  max-height: 100%;
-}
-.modal__info1, .modal__info3{
-  width: 90%;
-  height: auto;
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: 3fr 5fr;
-}
-.modal__info2{
-  width: 90%;
-  height: auto;
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: 5fr 3fr;
-}
-.modal__image, .modal__image2, .modal__image3{
-  width: 100%;
-  max-height:100% ;
-}
-
-.modal__button{
   font-family: "Oswald", sans-serif;
   padding: 5px 20px;
   border-radius: 5px;
