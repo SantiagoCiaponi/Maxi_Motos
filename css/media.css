@@ -136,6 +136,7 @@
   }
   .wrapper_content__articlelist a {
     margin: 17px;
+    border: solid 4px #ffbb00;
   }
   .footer p {
     font-size: 1.4em;
