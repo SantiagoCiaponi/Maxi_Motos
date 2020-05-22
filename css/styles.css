@@ -76,9 +76,7 @@ a {
 .navigation_bar a {
   font-size: 1.4em;
 }
-.navigation_bar a:hover {
-  color: #ffbb00;
-}
+
 .wrapper_content__indice {
   color: #ffbb00;
   font-weight: 400;
@@ -107,9 +105,6 @@ a {
   border-radius: 5%;
   font-family: "Oswald", sans-serif;
 }
-.wrapper_content__articlelist a:hover {
-  border: solid 4px #b48401;
-}
 
 /* ---------Footer */
 .footer {
@@ -132,9 +127,6 @@ a {
 }
 .icons a {
   margin: 5px;
-}
-.icons a:hover {
-  color: #fddd85;
 }
 
 /* ___________________________Empieza Sección Motos */
