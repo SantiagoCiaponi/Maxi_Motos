@@ -202,7 +202,7 @@
   .modal {
     grid-template-rows: 40% 40%;
     text-align: center;
-    height: 85%;
+    height: auto;
     margin: auto;
     left: 10px;
     right: 10px;
@@ -232,7 +232,7 @@
   }
   .modal__info2 img {
     width: 90%;
-    max-height: 350px;
+    max-height: 300px;
     margin: 0 auto;
   }
   .modal__info3 {
@@ -248,11 +248,10 @@
     font-size: 1em;
   }
   .modal__button {
-    position: fixed;
     margin: 0 auto;
-    left: 100px;
-    right: 100px;
-    bottom: 30px;
+  }
+  .modal__descripcion3 {
+    margin-bottom: 30px;
   }
 }
 
@@ -262,8 +261,6 @@
   .logo_maxi {
     margin-top: 30px;
     width: 230px;
-  }
-  .navigation_bar {
   }
   .navigation_bar a {
     font-size: 0.9em;

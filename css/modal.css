@@ -4,7 +4,7 @@
   gap: 20px;
   justify-items: center;
   grid-template-rows: repeat(3, 30%);
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   width: 70%;
   height: 90%;
   position: fixed;
@@ -63,9 +63,7 @@ figure {
   color: white;
   background-color: transparent;
   border: 3px solid #ffbb00;
-  margin-left: 40px;
-  position: fixed;
-  bottom: 20px;
+  margin: 10px auto;
 }
 
 /*@keyframes animationIn {*/
