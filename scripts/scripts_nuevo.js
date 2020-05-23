@@ -54,8 +54,7 @@ const ceccato = new Motos(
    una velocidad final de 140 km/h.`,
   ` Esta moto posee manubrio y óptica estilo Café Racer,
     llantas de 72 rayos con diseño helicoidal, asiento tipo slammer con tratamiento 
-    antideslizante y acabado mate, y escape de diseño vintage. También incluye velocímetr
-    o clásico y puerto USB que permite la carga de teléfonos celulares y GPS durante el viaje.`,
+    antideslizante y acabado mate, y escape de diseño vintage. `,
   "botonceccato"
 );
 
