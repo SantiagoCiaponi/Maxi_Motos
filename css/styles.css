@@ -296,3 +296,25 @@ a {
   border: 3px solid #ffbb00;
   margin-left: 40px;
 }
+/* ------------------Footer */
+.foooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  /* width: 100%; */
+  background-color: #252525;
+  margin-top: 50px;
+}
+.foooter div {
+  display: flex;
+  align-items: center;
+}
+.foooter__logo {
+  width: 100%;
+  justify-content: flex-end;
+}
+.foooter__logo img {
+  margin-right: 50px;
+  width: 280px;
+  margin-top: -10px;
+}

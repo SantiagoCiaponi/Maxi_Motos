@@ -116,6 +116,17 @@
   .modal__info3 {
     width: auto;
   }
+  /* --------------------Parte Footer Motos */
+  .foooter {
+    display: block;
+  }
+  .foooter div {
+    justify-content: center;
+  }
+  .foooter__logo img {
+    margin: 5px 0px 20px 0;
+    width: 250px;
+  }
 }
 
 /* -----------------------------------Parte 768px */
@@ -231,6 +242,9 @@
   .modal__info3 img {
     display: none;
   }
+  .modal__title3 {
+    display: none;
+  }
   .modal__title {
     font-size: 1em;
   }
@@ -315,5 +329,9 @@
   /* ---------------Parte Venta */
   .product__description {
     font-size: 0.9em;
+  }
+  /* ----------------Foooter venta */
+  .foooter__logo img {
+    width: 240px;
   }
 }
