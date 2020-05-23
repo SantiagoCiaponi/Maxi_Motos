@@ -228,6 +228,7 @@
   }
   .modal__title2 {
     text-align: center;
+    margin-top: -10px;
   }
   .modal__info2 img {
     width: 90%;
@@ -242,9 +243,7 @@
   .modal__info3 img {
     display: none;
   }
-  .modal__title3 {
-    display: none;
-  }
+
   .modal__title {
     font-size: 1em;
   }
@@ -333,5 +332,55 @@
   /* ----------------Foooter venta */
   .foooter__logo img {
     width: 240px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .wrapper_content__title {
+    margin-top: 0;
+  }
+  .wrapper_content__description {
+    font-size: 1em;
+  }
+  .footer {
+    margin-top: 5px;
+  }
+  .footer__text {
+    font-size: 0.7em;
+  }
+  /* --------------------Parte Modal */
+  .modal {
+    padding: 15px;
+  }
+  .modal__descripcion2 {
+    font-size: 0.9em;
+  }
+  .modal__title2 {
+    margin-top: -10px;
+    font-size: 1em;
+  }
+  .modal__image2 {
+    width: 70%;
+  }
+  .modal__descripcion3 {
+    font-size: 0.9em;
+  }
+  .modal__title3 {
+    margin-top: -10px;
+    font-size: 1em;
+  }
+  .modal__button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1em;
+    left: 50%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .modal__descripcion2 {
+    font-size: 0.8em;
+  }
+  .modal__descripcion3 {
+    font-size: 0.8em;
   }
 }
