@@ -9,8 +9,7 @@ function Motos(
   descripcion1,
   descripcion2,
   descripcion3,
-  boton,
-  moto
+  boton
 ) {
   (this.nombre = nombre),
     (this.foto1 = foto1),

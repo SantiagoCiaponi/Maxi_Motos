@@ -371,12 +371,12 @@ p.contact__subtitle {
   width: 100%;
   margin: 38px auto;
   display: grid;
-  grid-template-columns: 40% 40%;
-  gap: 30px;
+  grid-template-columns: 45% 40%;
+  gap: 20px;
   justify-content: space-evenly;
 }
 .acerca__image {
-  background-image: url("https://scontent.faep24-1.fna.fbcdn.net/v/t1.0-9/60640169_109798190259171_2354771341074235392_o.jpg?_nc_cat=100&_nc_sid=05277f&_nc_eui2=AeFfY3m6rTdiuHHXn5a5V8OWCighkphYDdsKKCGSmFgN2906u_HPQ00k716bIOMMEzfFqGftTtR86hJVbOTKeuEN&_nc_oc=AQm9wMPCVZcmf9eUBoaxIz979a_szzcoGOL1JolFk1g5L16RTQh6W9FXgZjHULcD4C4&_nc_ht=scontent.faep24-1.fna&oh=459393d43ab84d61f02a344f752a26d7&oe=5EF220DC");
+  background-image: url("https://scontent.faep24-1.fna.fbcdn.net/v/t1.0-9/60648817_109798300259160_7364179702002483200_o.jpg?_nc_cat=104&_nc_sid=dd9801&_nc_eui2=AeHO4SD7546sZ1ige_j_bsfJYkoTZNWtzvtiShNk1a3O-88DyHObLwNpX8V-ILZDlUaXhHdLTDtJ320-rxnJxKpt&_nc_oc=AQn8FijExabCU0Rkw6SIdLYUbydlMHbAOtp4Y3sKHidDxbr7L8TUX5W7yENr7MSJtqA&_nc_ht=scontent.faep24-1.fna&oh=aa1c29a9865cb3d00449fad2175dbed7&oe=5EF2A202");
   background-position: center;
   background-size: cover;
 }
