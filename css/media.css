@@ -125,6 +125,24 @@
     margin: 5px 0px 20px 0;
     width: 250px;
   }
+  .contact,
+  .contact p {
+    text-align: center;
+    justify-content: center;
+  }
+  .contact__map_small {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact__map_medium {
+    display: none;
+  }
+  .contact {
+    grid-template-columns: 90%;
+  }
+  .contact__content {
+    margin: auto;
+  }
 }
 
 /* -----------------------------------Parte 768px */
@@ -204,6 +222,7 @@
     margin: auto;
     left: 10px;
     right: 10px;
+    top: 20px;
   }
   .modal p {
     width: 100%;
@@ -330,6 +349,22 @@
   /* ----------------Foooter venta */
   .foooter__logo img {
     width: 240px;
+  }
+  /* --------------------Parte Contacto */
+  .contact__map_personalized {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact__map_small {
+    display: none;
+  }
+  .contact__content p {
+    font-size: 1em;
+    margin: 5px auto;
+  }
+  .contact__content h2 {
+    font-size: 1.6;
+    margin: 0;
   }
 }
 

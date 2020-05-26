@@ -153,7 +153,8 @@ async function showModal(moto) {
   $modal__descripcion3.textContent = moto.descripcion3;
 
   const $modalboton = document.querySelector(".modal__button");
-  $modalboton.addEventListener("click", () => {
+  $modalboton.addEventListener("click", async function () {
     $modal.classList.remove("active");
+    $modal.style.animation = await "modalOut .8s forwards";
   });
 }

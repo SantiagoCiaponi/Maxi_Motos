@@ -317,7 +317,7 @@ a {
   margin-top: -10px;
 }
 .fixed {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
@@ -329,7 +329,13 @@ a {
   grid-template-columns: 3fr 2fr;
 }
 .contact__map {
-  margin: 20px;
+  margin: 40px 30px;
+}
+.contact__map_small {
+  display: none;
+}
+.contact__map_personalized {
+  display: none;
 }
 .contact__content {
   margin-left: 30px;
@@ -353,4 +359,37 @@ a {
 }
 p.contact__subtitle {
   margin: 0;
+}
+/* ------------------Acerca de Nosotros */
+.acerca__title {
+  font-size: 2.7em;
+  text-align: center;
+  margin-top: 15px;
+}
+.acerca {
+  height: 50vh;
+  width: 100%;
+  margin: 38px auto;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.acerca__image {
+  background-image: url("https://scontent.faep24-1.fna.fbcdn.net/v/t1.0-9/60640169_109798190259171_2354771341074235392_o.jpg?_nc_cat=100&_nc_sid=05277f&_nc_eui2=AeFfY3m6rTdiuHHXn5a5V8OWCighkphYDdsKKCGSmFgN2906u_HPQ00k716bIOMMEzfFqGftTtR86hJVbOTKeuEN&_nc_oc=AQm9wMPCVZcmf9eUBoaxIz979a_szzcoGOL1JolFk1g5L16RTQh6W9FXgZjHULcD4C4&_nc_ht=scontent.faep24-1.fna&oh=459393d43ab84d61f02a344f752a26d7&oe=5EF220DC");
+  background-position: center;
+  background-size: cover;
+}
+.acerca__content {
+}
+.acerca__content h2 {
+  font-size: 2.3em;
+}
+.acerca__content .acerca__subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.acerca__content p {
+  font-size: 1.2em;
+  color: white;
 }
