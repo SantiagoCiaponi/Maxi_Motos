@@ -41,7 +41,6 @@ a {
   height: 100vh;
 }
 .principal_wrapper_image img {
-  min-width: 680px;
   width: 100%;
   height: 100%;
 }
@@ -316,11 +315,35 @@ a {
   width: 280px;
   margin-top: -10px;
 }
+
 .fixed {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+}
+.footer_motos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  /* width: 100%; */
+  background-color: #252525;
+}
+.footer_motos div {
+  display: flex;
+  align-items: center;
+}
+.foooter__logo {
+  width: 100%;
+  justify-content: flex-end;
+}
+.foooter__logo img {
+  margin-right: 50px;
+  width: 280px;
+  margin-top: -10px;
+}
+.footer_motos {
+  margin-top: 20px;
 }
 
 /* ------------------------------Parte Contacto */
@@ -339,6 +362,7 @@ a {
 }
 .contact__content {
   margin-left: 30px;
+  text-align: center;
 }
 .contact__content h2 {
   font-size: 2.7em;
@@ -351,6 +375,7 @@ a {
   font-size: 1.3em;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 25px 0;
   color: #ddd;
 }
@@ -372,15 +397,14 @@ p.contact__subtitle {
   margin: 38px auto;
   display: grid;
   grid-template-columns: 45% 40%;
-  gap: 20px;
-  justify-content: space-evenly;
+  gap: 40px;
+  justify-content: center;
 }
 .acerca__image {
   background-image: url("https://scontent.faep24-1.fna.fbcdn.net/v/t1.0-9/60648817_109798300259160_7364179702002483200_o.jpg?_nc_cat=104&_nc_sid=dd9801&_nc_eui2=AeHO4SD7546sZ1ige_j_bsfJYkoTZNWtzvtiShNk1a3O-88DyHObLwNpX8V-ILZDlUaXhHdLTDtJ320-rxnJxKpt&_nc_oc=AQn8FijExabCU0Rkw6SIdLYUbydlMHbAOtp4Y3sKHidDxbr7L8TUX5W7yENr7MSJtqA&_nc_ht=scontent.faep24-1.fna&oh=aa1c29a9865cb3d00449fad2175dbed7&oe=5EF2A202");
   background-position: center;
   background-size: cover;
-}
-.acerca__content {
+  background-repeat: no-repeat;
 }
 .acerca__content h2 {
   font-size: 2.3em;
@@ -390,6 +414,6 @@ p.contact__subtitle {
   margin-bottom: 20px;
 }
 .acerca__content p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: white;
 }

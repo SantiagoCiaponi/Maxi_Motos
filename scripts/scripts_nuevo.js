@@ -1,6 +1,7 @@
 const $wrapper = document.querySelector(".principal");
 const $modal = document.querySelector(".modal");
 
+//-----------Función constructora
 function Motos(
   nombre,
   foto1,
@@ -9,8 +10,7 @@ function Motos(
   descripcion1,
   descripcion2,
   descripcion3,
-  boton,
-  moto
+  boton
 ) {
   (this.nombre = nombre),
     (this.foto1 = foto1),
@@ -23,6 +23,7 @@ function Motos(
   return printMoto(this);
 }
 
+//-------------------Motos
 const cb500 = new Motos(
   "Honda Cb500 2019",
   "images/honda_cb500.png",
@@ -54,7 +55,9 @@ const ceccato = new Motos(
    una velocidad final de 140 km/h.`,
   ` Esta moto posee manubrio y óptica estilo Café Racer,
     llantas de 72 rayos con diseño helicoidal, asiento tipo slammer con tratamiento 
-    antideslizante y acabado mate, y escape de diseño vintage. `,
+    antideslizante y acabado mate, y escape de diseño vintage.También incluye 
+    velocímetro clásico y puerto USB que permite la carga de teléfonos celulares
+     y GPS durante el viaje. `,
   "botonceccato"
 );
 
@@ -92,6 +95,7 @@ const ax1300 = new Motos(
   "botoncb500"
 );
 
+// Función poner motos
 function printMoto(moto) {
   const template = NewTemplate(moto);
   const html = document.implementation.createHTMLDocument();
@@ -100,6 +104,7 @@ function printMoto(moto) {
   $wrapper.append(html.body.children[0]);
 }
 
+// Templates de crear motos
 function NewTemplate(moto) {
   return ` <article  class="product">
         <figure>
@@ -115,6 +120,8 @@ function NewTemplate(moto) {
 
 //const $botones = document.querySelectorAll(".product__button");
 //$botones.addEventListener("click", () => showModal(this));
+
+//------------Acá traigo los objetos de el DOM
 const $modal__image = document.querySelector(".modal__image");
 const $modal__title = document.querySelector(".modal__title");
 const $modal__descripcion = document.querySelector(".modal__descripcion");
@@ -143,11 +150,9 @@ async function showModal(moto) {
   $modal__image.setAttribute("src", moto.foto1);
   $modal__title.textContent = moto.nombre;
   $modal__descripcion.textContent = moto.descripcion1;
-
   $modal__image2.setAttribute("src", moto.foto2);
   $modal__title2.textContent = moto.nombre;
   $modal__descripcion2.textContent = moto.descripcion2;
-
   $modal__image3.setAttribute("src", moto.foto3);
   $modal__title3.textContent = moto.nombre;
   $modal__descripcion3.textContent = moto.descripcion3;

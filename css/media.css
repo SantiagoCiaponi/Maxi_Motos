@@ -143,6 +143,10 @@
   .contact__content {
     margin: auto;
   }
+  /* ------------------------Acerca de Nosotros */
+  .foooter {
+    margin-top: 200px;
+  }
 }
 
 /* -----------------------------------Parte 768px */
@@ -174,6 +178,21 @@
     margin-bottom: 3%;
     display: flex;
     justify-content: center;
+  }
+  .footer_motos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foooter__logo {
+    display: block;
+  }
+  .foooter__logo a {
+    margin: 0 auto;
+  }
+  .icons ul {
+    margin: 0 auto;
   }
 
   /* -----------------Parte Motos */
@@ -273,6 +292,31 @@
   .foooter {
     display: block;
   }
+  /* --------------------Acerca de Nosotros */
+  .acerca {
+    margin: 0;
+    grid-template-columns: 80%;
+    text-align: center;
+    gap: 5px;
+  }
+  .acerca__title {
+    font-size: 2.3em;
+  }
+  .acerca__content h2 {
+    font-size: 2em;
+  }
+  .acerca__content .acerca__subtitle {
+    font-size: 1.3em;
+  }
+  .acerca__content p {
+    font-size: 1.2em;
+  }
+  .acerca__image {
+    display: none;
+  }
+  .foooter {
+    margin-top: 60px;
+  }
 }
 
 /* -------------------------------------Parte 470px */
@@ -305,6 +349,9 @@
     border: solid 4px #ffbb00;
   }
   .footer p {
+    font-size: 1.4em;
+  }
+  .footer_motos p {
     font-size: 1.4em;
   }
   .icons {
@@ -366,6 +413,19 @@
     font-size: 1.6;
     margin: 0;
   }
+  /* ----------------Parte Acerca de Nosotros */
+  .acerca__title {
+    font-size: 2em;
+  }
+  .acerca__content h2 {
+    font-size: 1.7em;
+  }
+  .acerca__content .acerca__subtitle {
+    font-size: 1.2em;
+  }
+  .acerca__content p {
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -407,6 +467,19 @@
     margin: 0 auto;
     font-size: 1em;
     left: 50%;
+  }
+  /* --------------------Acerca de Nosotros */
+  .acerca__title {
+    font-size: 2em;
+  }
+  .acerca__content h2 {
+    font-size: 1.8em;
+  }
+  .acerca__content .acerca__subtitle {
+    font-size: 1.1em;
+  }
+  .acerca__content p {
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 330px) {
