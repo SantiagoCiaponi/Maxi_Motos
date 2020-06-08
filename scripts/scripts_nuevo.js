@@ -38,7 +38,7 @@ const benelli = new Motos(
    refrigeración líquida y alimentado por inyección electrónica. Declara una potencia
    máxima de 38 CV a 12.000 rpm y un torque de 2,75 kgm a 9.000 revoluciones por
    minuto lo que refleja que es una moto que se pone divertida en lo alto del cuentavueltas.`,
-  `los frenos son realmente buenos, y siempre y cuando esté calzada con buenas 
+  `Los frenos son buenos, y siempre y cuando esté calzada con buenas 
   cubiertas, la potencia de frenado es excelente, siendo la única en su segmento 
   con doble freno delantero a disco con cálipers de 4 pistones.`,
   "botonbenelli"
@@ -150,6 +150,56 @@ const motoneta = new Motos(
   "botonmotoneta"
 );
 
+const sahel = new Motos(
+  "Gilera Sahel 150",
+  `${url}/motos_nuevas/sahel1.jpg`,
+  `${url}/motos_nuevas/sahel2.jpg`,
+  `${url}/motos_nuevas/sahel3.jpg`,
+  `La Gilera Sahel 150 es una moto tipo enduro de la marca Gilera, cuenta con un motor 
+  monocilindrico de 150cm3, refrigerado por aire. Entrega una potencia máxima de 11cv a 8.500 rpm.
+  Esta equipada con encendido electronico y la caja es de 4 velocidades.`,
+  `En la suspensión delantera, cuenta con Barrales telescópica hidráulica, y en la trasera, 
+   con un Monoamortiguador hidráulico. La capacidad del tanque es de 8,6 Lts y tiene frenos a 
+   disco adelante y a tambor atras. Los faros son alógenos y
+  es muy economica en temas de consumo de combustible`,
+  `Una de las cosas mas destacables de la moto es su estetica. Tiene una capacidad de carga de 
+  hasta 150kg, y la moto pesa 110kg. El arranque es electrico y a patada..`,
+  "botonsahel"
+);
+
+const biz = new Motos(
+  "Honda Biz 125",
+  `${url}/motos_nuevas/biz1.jpg`,
+  `${url}/motos_nuevas/biz2.jpg`,
+  `${url}/motos_nuevas/biz3.jpg`,
+  `La Honda Biz 125 es una motocicleta tipo Cub con motor de 4 tiempos, con un solo cilindro horizontal de 125cc
+  , alimentado por carburador, con sistema de ignición por descarga capacitiva (CDI) y avance electrónico.`,
+  `Como detalles característicos vamos a citar un tablero con indicador de nivel de combustible y velocímetro 
+  analógicos, un asiento rebatible con cerradura que oculta la tapa del tanque de nafta y el baúl, en el que puede 
+  guardarse un casco integral.`,
+  `Además tiene sistema antirrobo Shutter Key de Honda para evitar robos o roturas de la cerradura y 
+  tecnología Tuff-up en la rueda trasera, que ofrece mayor seguridad y estabilidad ante posibles pinchaduras.`,
+  "botonbiz"
+);
+
+const ax100 = new Motos(
+  "Suzuki Ax-100",
+  `${url}/motos_nuevas/ax1.jpg`,
+  `${url}/motos_nuevas/ax2.jpg`,
+  `${url}/motos_nuevas/ax3.jpg`,
+  `Es una moto liviana, maniobrable y ante todo muy confiable. Tiene un diseño 
+  dinámico en el cual tanto el conductor como el pasajero viajan con comodidad, 
+  sobre todo gracias a un amplio asiento de dos niveles. Supera cualquier obstáculo,
+   es robusta y resistente.`,
+  `Dispone de un motor de dos tiempos de 98 cc, y viene con una caja de cuatro
+   velocidades. Puede dar hasta 12 HP a 7 800 rpm, lo que la convierte en la
+   moto de 100 cc más potente del mercado. La velocidad máxima, según pruebas,
+   frisa los 100,km/h (98) y el tanque de combustible tiene 12 L con una reserva de 2.`,
+  `La suspensión hidráulica asegura la estabilidad. Los frenos son a fricción,
+   de tambor, la transmisión por cadena y el arranque por palanca (patada) transistorizado.`,
+  "botonax"
+);
+
 // Función poner motos
 function printMoto(moto) {
   const template = NewTemplate(moto);
@@ -161,16 +211,16 @@ function printMoto(moto) {
 
 // Templates de crear motos
 function NewTemplate(moto) {
-  return ` <article  class="product">
-        <figure>
-        <img src="${moto.foto1}" alt="Honda cb500" class="product__image">
-        </figure>
-        <div>
-        <h2 class="product__title">${moto.nombre}</h2>
-        <p class="product__description">${moto.descripcion1}</p>
-        <input type="button" class="product__button ${moto.boton}" value="Ver Más!">
-        </div>
-        </article>  `;
+  return `<article  class="product">
+            <figure>
+              <img src="${moto.foto1}" alt="Honda cb500" class="product__image">
+            </figure>
+            <div>
+              <h2 class="product__title">${moto.nombre}</h2>
+              <p class="product__description">${moto.descripcion1}</p>
+              <input type="button" class="product__button ${moto.boton}" value="Ver Más!">
+            </div>
+          </article>  `;
 }
 
 //const $botones = document.querySelectorAll(".product__button");
@@ -219,6 +269,18 @@ $botontitan.addEventListener("click", () => showModal(titan));
 //-----Zanella Motoneta
 const $botonmotoneta = document.querySelector(".botonmotoneta");
 $botonmotoneta.addEventListener("click", () => showModal(motoneta));
+
+//-----Gilera Sahel 150
+const $botonsahel = document.querySelector(".botonsahel");
+$botonsahel.addEventListener("click", () => showModal(sahel));
+
+//-----Honda Biz 125
+const $botonbiz = document.querySelector(".botonbiz");
+$botonbiz.addEventListener("click", () => showModal(biz));
+
+//-----Suzuki Ax-100
+const $botonax = document.querySelector(".botonax");
+$botonax.addEventListener("click", () => showModal(ax100));
 
 //--------------------------------------------------------
 

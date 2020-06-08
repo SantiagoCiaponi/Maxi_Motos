@@ -266,6 +266,21 @@ a {
   border-right: 3px solid #444;
   border-left: 3px solid #444;
 }
+.principal__button-wrapper {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.principal__boton {
+  font-family: "Oswald", sans-serif;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 1.3em;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #ffbb00;
+}
 .product {
   display: grid;
   grid-template-columns: 27% 65%;
