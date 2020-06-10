@@ -1,3 +1,4 @@
+-----------------------------------------------
 Motos Nuevas Orden 
 
 Motos nuevas sección 1:
@@ -25,6 +26,16 @@ Motos Nuevas sección 2:
 8.    Guerrero G110 Trip Full
 9.    Gilera Smash VS
 
+-----------------------------------------------
+Motos Usadas Orden
 
+Motos Usadas
+
+1.    La Rumy
+2.    
+3.    
+4.    
+5.    
+6.    
 
 

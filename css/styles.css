@@ -45,6 +45,7 @@ a {
   height: 100%;
 }
 .logo_maxi {
+  display: none;
   position: fixed;
   width: 350px;
   left: 170px;

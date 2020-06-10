@@ -1,6 +1,8 @@
 const $wrapper = document.querySelector(".principal");
 const $modal = document.querySelector(".modal");
+const url = "images/fotos";
 
+//-----------Función constructora
 function Motos(
   nombre,
   foto1,
@@ -22,76 +24,54 @@ function Motos(
   return printMoto(this);
 }
 
-const cb500 = new Motos(
-  "Honda Cb500 2019",
-  "images/honda_cb500.png",
-  "images/honda_cb5002.jpg",
-  "images/honda_cb5003.jpg",
-  `La Honda CB500F es una excelente opción dentro 
-  del mercado de motos naked para el carnet A-2, una moto ligera y de estética 
-  deportiva dotada de un motor de dos cilindros con una potencia de 35 kW (47 CV)`,
-  `Esta es una moto de la conocidisima marca japonesa Honda.
-  Los productos Honda, sobresalen del resto por su calidad y confianza, ademas de 
-  el atractivo que tiene la moto y la onda deportiva que tiene, combinado con su
-   motor dos cilindros.`,
-  `La Honda CB500F es una excelente opción dentro 
-  del mercado de motos naked para el carnet A-2, una moto ligera y de estética 
-  deportiva dotada de un motor de dos cilindros con una potencia de 35 kW (47 CV)`,
-  "botoncb500"
+//-------------------Motos
+
+const rumi = new Motos(
+  "Rumi Sport",
+  `${url}/motos_usadas/rumy1.jpg`,
+  `${url}/motos_usadas/rumy2.jpg`,
+  `${url}/motos_usadas/rumy3.jpg`,
+  `La producción comenzó a finales de 1950, pero fue presentado al público en 1951.
+   El motor se mejoró considerablemente al estar equipadas con pistón deflector, que sucesivamente 
+   se montaron en todos los modelos posteriores de la firma. `,
+  `C7.0 CV/6 000 rpm, relación de compresión 7.8:1, culatas de aluminio, carburador MB 22A, bastidor
+   doble cuna, neumáticos D/T 2.50 x 19" (2.375 x 21" opcional), sillín biplaza, tanque de 14 L 
+   (consumo 3.4 L/100 km), velocidad máxima 100 km/h y 90 kg de peso`,
+  `En 1953, 1955 y 1956 fueron los años en los que se mejoró este modelo al hacer cambios en la carburación
+   y en el bastidor así como de la suspensión trasera y montando llantas de hierro.`,
+  "botonrumi"
 );
 
-const ceccato = new Motos(
-  "Zanella Ceccato R150",
-  "images/ceccato1.jpg",
-  "images/ceccato2.jpg",
-  "images/ceccato3.jpg",
-  `A 60 años del nacimiento de la moto que revolucionó la industria nacional en 1957,
-   la compañía presenta su evolución renovando el espíritu Café Racer y la calidad de 
-   una larga tradición de diseño italiano`,
-  `la Ceccato R150 incorpora un motor de 150 cc con tecnología de árbol de levas a la
-   cabeza de 15HP logrando una aceleración de 0 a 60 km/h en tan sólo 4,6 segundos y 
-   una velocidad final de 140 km/h.`,
-  ` Esta moto posee manubrio y óptica estilo Café Racer,
-    llantas de 72 rayos con diseño helicoidal, asiento tipo slammer con tratamiento 
-    antideslizante y acabado mate, y escape de diseño vintage. También incluye velocímetr
-    o clásico y puerto USB que permite la carga de teléfonos celulares y GPS durante el viaje.`,
-  "botonceccato"
+const rouser = new Motos(
+  "Bajaj Rouser AS 200",
+  `${url}/motos_usadas/rouseras1.jpg`,
+  `${url}/motos_usadas/rouseras2.jpg`,
+  `${url}/motos_usadas/rouseras3.jpg`,
+  `La Rouser AS 200 cuenta con un motor monocilíndrico de 199,5 cc que eroga 23,5 CV a 9.500 rpm, 
+  con refrigeración líquida, sistema de triple bujía (mejor combustión y eficiencia en el consumo de combustible) y 4 válvulas. `,
+  `El chasis perimetral que monta está construido en acero estampado a presión y permite un preciso y ágil control a 
+  alta velocidad así como también estabilidad en curvas. En este tipo de terreno muestra una parte ciclo de las más 
+  equilibradas`,
+  `La posición de manejo invita a pasar largas horas a bordo de la AS.
+  La AS ofrece una postura relajada, con los codos levemente flexionados, la espalda erguida y una flexión de piernas confortable.`,
+  "botonrouser"
 );
 
-const gx1 = new Motos(
-  "Gilera Gx-1 2019",
-  "images/gileragx-1.jpg",
-  "images/gileragx-2.jpg",
-  "images/gileragx-3.jpg",
-  `La GX-1 porta un propulsor monocilíndrico de 125 cc  refrigerado por aceite,
-   asociado a una caja de 4 velocidades. Es una propuesta deportiva y elegante 
-   que goza de buena agilidad y maniobrabilidad.`,
-  `Equipa en la suspension delantera una horquilla hidráulica invertida con gran 
-  recorrido generando robustez como las motos grandes, lo que permite ser utilizada
-   tanto para transito urbano como para el uso mas recreativo de sus usuarios.`,
-  `Su chasis es tubular, también de vanguardia y posee llantas de 12 pulgadas. 
-  Cuenta con una capacidad de 15 litros de combustible y encendido es electrónico.
-   Ofrece un silenciador de 3 barrillas y asientos de estilo de «carreras»..`,
-  "botongx1"
+const ltz = new Motos(
+  "Suzuki LTZ 400",
+  `${url}/motos_usadas/quadsport1.jpg`,
+  `${url}/motos_usadas/quadsport2.jpg`,
+  `${url}/motos_usadas/quadsport3.jpg`,
+  `El Suzuki LTZ 400 cuenta con un motor monocilindrico de 500 cm3, 4 tiempos enfriado por aire, OHC 1 árbol de levas, y 17 CV de potencia.
+   La transmisión es de 5 velocidades mas la marcha atras.`,
+  `S u peso es de 183kg. El freno delantero es de doble disco de 160 mm. El trasero de tambor.
+   La suspensión delantera es Independiente, doble horquilla, amortiguador hidráulico con resortes, la trasera, Basculante con amortiguador sencillo`,
+  `La posición de manejo invita a pasar largas horas a bordo de la AS.
+  La AS ofrece una postura relajada, con los codos levemente flexionados, la espalda erguida y una flexión de piernas confortable.`,
+  "botonltz"
 );
 
-const ax1300 = new Motos(
-  "Honda Cb500 2019",
-  "images/honda_cb500.png",
-  "honda_cb5002.jpg",
-  "honda_cb5003.jpg",
-  `A 60 años del nacimiento de la moto que revolucionó la industria nacional en 1957,
-   la compañía presenta su evolución renovando el espíritu Café Racer y la calidad de 
-   una larga tradición de diseño italiano`,
-  `la Ceccato R150 incorpora un motor de 150 cc con tecnología de árbol de levas a la
-   cabeza de 15HP logrando una aceleración de 0 a 60 km/h en tan sólo 4,6 segundos y 
-   una velocidad final de 140 km/h. Esta moto posee manubrio y óptica estilo Café Racer,
-    llantas de 72 rayos con diseño helicoidal, asiento tipo slammer con tratamiento 
-    antideslizante y acabado mate, y escape de diseño vintage. También incluye velocímetr
-    o clásico y puerto USB que permite la carga de teléfonos celulares y GPS durante el viaje.`,
-  "botoncb500"
-);
-
+// Función poner motos
 function printMoto(moto) {
   const template = NewTemplate(moto);
   const html = document.implementation.createHTMLDocument();
@@ -100,21 +80,24 @@ function printMoto(moto) {
   $wrapper.append(html.body.children[0]);
 }
 
+// Templates de crear motos
 function NewTemplate(moto) {
-  return ` <article  class="product">
-        <figure>
-        <img src="${moto.foto1}" alt="Honda cb500" class="product__image">
-        </figure>
-        <div>
-        <h2 class="product__title">${moto.nombre}</h2>
-        <p class="product__description">${moto.descripcion1}</p>
-        <input type="button" class="product__button ${moto.boton}" value="Ver Más!">
-        </div>
-        </article>  `;
+  return `<article  class="product">
+            <figure>
+              <img src="${moto.foto1}" alt="Honda cb500" class="product__image">
+            </figure>
+            <div>
+              <h2 class="product__title">${moto.nombre}</h2>
+              <p class="product__description">${moto.descripcion1}</p>
+              <input type="button" class="product__button ${moto.boton}" value="Ver Más!">
+            </div>
+          </article>  `;
 }
 
 //const $botones = document.querySelectorAll(".product__button");
 //$botones.addEventListener("click", () => showModal(this));
+
+//------------Acá traigo los objetos de el DOM
 const $modal__image = document.querySelector(".modal__image");
 const $modal__title = document.querySelector(".modal__title");
 const $modal__descripcion = document.querySelector(".modal__descripcion");
@@ -127,13 +110,23 @@ const $modal__image3 = document.querySelector(".modal__image3");
 const $modal__title3 = document.querySelector(".modal__title3");
 const $modal__descripcion3 = document.querySelector(".modal__descripcion3");
 
+//--------------------------------------------------------
+
 //----------Botones por motos
-const $botoncb500 = document.querySelector(".botoncb500");
-$botoncb500.addEventListener("click", () => showModal(cb500));
-const $botonceccato = document.querySelector(".botonceccato");
-$botonceccato.addEventListener("click", () => showModal(ceccato));
-const $botongx1 = document.querySelector(".botongx1");
-$botongx1.addEventListener("click", () => showModal(gx1));
+
+//-----Rumi Sport
+const $botonrumi = document.querySelector(".botonrumi");
+$botonrumi.addEventListener("click", () => showModal(rumi));
+
+//-----Bajaj Rouser AS 200
+const $botonrouser = document.querySelector(".botonrouser");
+$botonrouser.addEventListener("click", () => showModal(rouser));
+
+//-----Suzuki LTZ 400
+const $botonltz = document.querySelector(".botonltz");
+$botonltz.addEventListener("click", () => showModal(ltz));
+
+//--------------------------------------------------------
 
 //No tocar nada de esto porque se va todo al carajo
 async function showModal(moto) {
@@ -143,17 +136,16 @@ async function showModal(moto) {
   $modal__image.setAttribute("src", moto.foto1);
   $modal__title.textContent = moto.nombre;
   $modal__descripcion.textContent = moto.descripcion1;
-
   $modal__image2.setAttribute("src", moto.foto2);
   $modal__title2.textContent = moto.nombre;
   $modal__descripcion2.textContent = moto.descripcion2;
-
   $modal__image3.setAttribute("src", moto.foto3);
   $modal__title3.textContent = moto.nombre;
   $modal__descripcion3.textContent = moto.descripcion3;
 
   const $modalboton = document.querySelector(".modal__button");
-  $modalboton.addEventListener("click", () => {
+  $modalboton.addEventListener("click", function () {
     $modal.classList.remove("active");
+    $modal.style.animation = "modalOut .8s forwards";
   });
 }
