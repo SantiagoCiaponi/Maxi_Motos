@@ -182,9 +182,6 @@ function NewTemplate(moto) {
           </article>  `;
 }
 
-//const $botones = document.querySelectorAll(".product__button");
-//$botones.addEventListener("click", () => showModal(this));
-
 //------------Acá traigo los objetos de el DOM
 const $modal__image = document.querySelector(".modal__image");
 const $modal__title = document.querySelector(".modal__title");
@@ -199,6 +196,9 @@ const $modal__title3 = document.querySelector(".modal__title3");
 const $modal__descripcion3 = document.querySelector(".modal__descripcion3");
 
 //--------------------------------------------------------
+
+//const $botones = document.querySelectorAll(".product__button");
+//$botones.addEventListener("click", () => showModal(this));
 
 //----------Botones por motos
 
