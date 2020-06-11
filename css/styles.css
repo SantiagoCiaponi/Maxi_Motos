@@ -433,3 +433,22 @@ p.contact__subtitle {
   font-size: 1.3em;
   color: white;
 }
+
+/* ----------------------------Parte Cascos */
+.principal-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border-right: 2px solid #999;
+  border-left: 2px solid #999;
+  display: grid;
+  grid-template-columns: 35% 35%;
+  justify-content: center;
+  gap: 30px 50px;
+}
+
+.principal__product {
+  border: 1px solid red;
+  height: 300px;
+  width: 100%;
+}
