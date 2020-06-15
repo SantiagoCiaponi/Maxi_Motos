@@ -28,6 +28,193 @@ a {
   color: white;
   margin-right: 40px;
 }
+/* ------------------Index2 */
+
+.hero__navbar {
+  position: absolute;
+  top: 15px;
+  right: 200px;
+}
+
+.hero__navbar li {
+  font-size: 1.7em;
+  font-family: "Oswald", sans-serif;
+}
+.hero__navbar a:hover {
+  color: #ffbb00;
+}
+
+.heros {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+}
+.hero1 {
+  background-image: url("https://imgur.com/Ph9C4CH.png");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0px 50px;
+  height: 450px;
+}
+.vertical_bar {
+  width: 100%;
+  height: inherit;
+  background-color: rgba(255, 187, 0, 0.5);
+}
+.hero1__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 100px 0;
+}
+.hero1__bar {
+  background-color: #ffbb00;
+  height: 200px;
+  width: 16px;
+  margin-left: 20px;
+}
+.hero1__text {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 4em;
+  line-height: 1.6em;
+  text-align: end;
+  text-shadow: #414141;
+}
+.hero1__text span {
+  font-size: 1.7em;
+}
+
+.hero2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0px 50px;
+  height: 500px;
+}
+.hero2__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px 5%;
+}
+
+.hero2__text {
+  font-size: 3.7em;
+  line-height: 1.6em;
+}
+.hero2__text span {
+  font-size: 1.7em;
+  color: #ffbb00;
+}
+.hero2__text2 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero2__text2 h2 {
+  font-size: 2.8em;
+}
+.hero2__bar {
+  background-color: #ffbb00;
+  height: 130px;
+  width: 16px;
+  margin-left: 20px;
+}
+
+.horizontal_bar {
+  width: 100%;
+  height: 15px;
+  background-color: rgba(255, 187, 0, 0.5);
+}
+
+.hero3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0px 50px;
+  background-image: url("https://imgur.com/5tT35E9.png");
+  background-size: cover;
+  background-position: center;
+}
+.hero3__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero3__text1-wrapper {
+  width: 70%;
+  padding: 30px 50px;
+  margin: 0 auto;
+  margin-right: 0;
+}
+.text1-1 h2 {
+  font-size: 3.7em;
+}
+.text1-2 h2 {
+  font-size: 4.2em;
+  text-align: end;
+}
+.horizontal_bar3 {
+  margin-left: 10%;
+  margin-right: -100px;
+  width: 90%;
+  height: 15px;
+  background-color: rgba(255, 187, 0, 0.5);
+}
+.hero3__motos {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero3__motos h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.hero3__motos ul {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero3__motos a {
+  margin: 0;
+  text-shadow: 1px 1px 20px black;
+  border: solid 4px #ffbb00;
+  padding: 5px 15px;
+  border-radius: 5%;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+}
+.vertical_bar3 {
+  width: 100%;
+  height: 65%;
+  background-color: rgba(255, 187, 0, 0.5);
+}
+.hero3__section1 h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 15px;
+}
+.hero3__section1 span {
+  font-size: 40px;
+}
+.icons {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.icons span {
+  margin: 10px;
+}
+
 /*----------Primer Ventana */
 
 /* -----------Ventana Imágen */
@@ -82,8 +269,9 @@ a {
   font-weight: 400;
 }
 .wrapper_content__title {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: 5%;
+  margin-left: 10px;
   text-shadow: 2px 2px 50px #021e36;
 }
 .wrapper_content__description {
@@ -92,6 +280,7 @@ a {
   margin-left: 18%;
   margin-top: 20px;
   font-size: 1.4em;
+  line-height: 1.7em;
 }
 .wrapper_content__articlelist {
   width: 70%;
@@ -104,6 +293,14 @@ a {
   padding: 5px 25px;
   border-radius: 5%;
   font-family: "Oswald", sans-serif;
+}
+.image {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+.image img {
+  width: 100%;
 }
 
 /* ---------Footer */
@@ -171,45 +368,17 @@ a {
 }
 
 /* ----------Hero */
-.hero {
-  background-color: #333;
-  width: 100%;
-  display: flex;
-  text-align: center;
+
+.hero .hero__banner {
+  margin-top: 30px;
 }
 
-.hero__motorcycle img {
-  width: 100%;
-  height: 100%;
-}
-.hero__content {
-  color: #fff;
-  padding: 0px 40px;
-}
-.hero__motorcycle {
-  padding: 10px;
-}
-.hero__title {
-  font-size: 2.5em;
-  color: #eee;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.hero__description {
-  font-size: 1.5em;
-  color: #ddd;
-  margin: 20px 10px 10px 10px;
-}
-.hero__line {
-  margin: 20px auto;
-  width: 90%;
-}
 /* ---------Options */
 .options {
-  margin-top: 40px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 35% 35%;
-  height: 350px;
+  height: 150px;
   justify-content: space-evenly;
   background-color: #333;
 }
@@ -227,30 +396,22 @@ a {
   background-image: url(../images/bonelli.png);
   background-size: cover;
 }
-.news_accesorios {
-  background-image: url(../images/accesorios/casco1.png);
-  background-size: cover;
-}
-.olds_accesorios {
-  background-image: url(../images/accesorios/escape1.png);
-  background-size: cover;
-}
 
 .olds {
-  background-image: url(../images/cuatri.png);
+  background-image: url(../images/moto.png);
   background-size: cover;
 }
 .options__title {
   text-shadow: 1px 1px 20px black;
   font-size: 3.5em;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
   font-family: "Oswald", sans-serif;
 }
 
 .options__button {
   margin: 0;
   position: relative;
-  bottom: -100px;
+  bottom: -30px;
   text-shadow: 1px 1px 20px black;
   border: solid 4px #ffbb00;
   padding: 5px 15px;
@@ -439,16 +600,28 @@ p.contact__subtitle {
   width: 70%;
   margin: 0 auto;
   padding: 20px;
-  border-right: 2px solid #999;
-  border-left: 2px solid #999;
+  border-right: 2px solid #555;
+  border-left: 2px solid #555;
   display: grid;
   grid-template-columns: 35% 35%;
   justify-content: center;
   gap: 30px 50px;
 }
 
-.principal__product {
-  border: 1px solid red;
-  height: 300px;
+.principal-product {
+  height: auto;
   width: 100%;
+}
+.principal-product--top {
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+}
+.principal-product__foto {
+  width: 100%;
+  border-radius: 10px;
+}
+.principal-product__text {
+  font-size: 2em;
+  text-align: center;
 }
