@@ -260,7 +260,9 @@
   .vertical_bar2 h2 {
     font-size: 1.7em;
   }
-
+  .horizontal_bar3 {
+    margin: 0;
+  }
   .hero3__text1-wrapper h2 {
     font-size: 1.8em;
   }
@@ -516,6 +518,47 @@
   .hero2 {
     height: 250px;
   }
+  .hero3__text1-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 30px 0;
+  }
+  .hero3__text1-wrapper h2 {
+    font-size: 1.5em;
+  }
+  .hero3__motos ul a {
+    font-size: 0.7em;
+  }
+  .hero3__motos ul {
+    margin: 30px 0 45px;
+  }
+  .hero3__motos a {
+    border: 3px solid #ffbb00;
+    font-size: 0.7em;
+  }
+  .hero3__motos h2 {
+    font-size: 1.2em;
+  }
+  .hero3__section1 h2 {
+    font-size: 1.4em;
+  }
+  .vertical_bar3 .vertical_text {
+    font-size: 1.7em;
+  }
+  .icons {
+    margin-top: 0;
+  }
+  .icons [class^="flaticon-"]:before,
+  [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after,
+  [class*=" flaticon-"]:after {
+    font-size: 25px;
+  }
+  .vertical_bar3 {
+    height: 50%;
+  }
   /* -----------------------------Home nuevo */
   .logo_maxi {
     margin-top: 30px;
@@ -624,6 +667,61 @@
 }
 
 @media screen and (max-width: 360px) {
+  .hero__navbar a {
+    margin: 14px;
+  }
+  .hero1__text {
+    font-size: 1.3em;
+  }
+  .hero1__bar {
+    width: 10px;
+    height: 60px;
+    margin-left: 15px;
+  }
+  .hero1 .vertical_bar h2 {
+    font-size: 1.5em;
+  }
+  .hero2__text {
+    font-size: 1.2em;
+  }
+  .hero2__text2 h2 {
+    font-size: 0.7em;
+  }
+  .hero2__bar {
+    height: 50px;
+    width: 10px;
+    margin-left: 10px;
+  }
+  .vertical_bar2 h2 {
+    font-size: 1.2em;
+  }
+  .hero3__text1-wrapper h2 {
+    font-size: 1.3em;
+  }
+  .hero3__motos h2 {
+    font-size: 1em;
+  }
+  .hero3__motos ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .hero3__motos ul li {
+    margin: 15px 0;
+  }
+  .hero3__motos ul a {
+    font-size: 0.8em;
+  }
+  .hero3__section1 h2 {
+    font-size: 1em;
+  }
+  .vertical_bar3 .vertical_text {
+    font-size: 1.5em;
+  }
+  .icons a {
+    margin: 0;
+  }
+  /* -------------------home nuevo */
   .wrapper_content__title {
     margin-top: 0;
   }
