@@ -31,6 +31,18 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+@media screen and(max-width: 768px) {
+  [class^="flaticon-"]:before,
+  [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after,
+  [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 25px;
+    font-style: normal;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
 
 .flaticon-001-facebook:before {
   content: "\f100";
