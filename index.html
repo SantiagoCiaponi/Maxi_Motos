@@ -9,36 +9,48 @@
     <link rel="stylesheet" href="css/font/flaticon.css" />
   </head>
   <body>
-    <div class="background">
-      <div class="principal_wrapper_image">
-        <img src="images/portonmaxi.png" alt="Maxi Motos" />
-      </div>
-      <div class="wrapper_content">
-        <img src="images/maxi_logo2.png" alt="Maxi Motos" class="logo_maxi" />
-        <ul class="navigation_bar">
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="acercade.html">Acerca de Nosotros</a></li>
-          <li><a href="gestoria.html">Gestoría</a></li>
-        </ul>
-
-        <h1 class="wrapper_content__title">Tu próxima moto esta acá!</h1>
-        <p class="wrapper_content__description">
-          Entras con tu DNI, y salis con tu moto nueva. <br />
-          En Maxi Motos, te ofrecemos todas las herramientas para que elijas tu
-          moto perfecta
-        </p>
-
-        <div class="image">
-          <img src="images/index.png" alt="" />
+    <ul class="hero__navbar">
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="gestoria.html">Gestoría</a></li>
+          </ul>
+    <div class="heros">
+      <section class="hero1">
+        <div class="vertical_bar">
+          <h2>Tu próxima<br>Moto está <br><span>Acá!</span></h2>
         </div>
-        <ul class="wrapper_content__articlelist">
-          <li><a href="motos.html"> Motos </a></li>
-          <li><a href="cascos.html">Cascos</a></li>
-        </ul>
-        <footer class="footer">
-          <hr class="footer_line" />
-          <p class="footer__text">Maxi Motos</p>
-          <div class="icons">
+        <div class="hero1__wrapper">
+          <h1 class="hero1__text">
+            Llevate tu moto solo <br /><span>con tu D.N.I.</span>
+          </h1>
+          <div class="hero1__bar"></div> 
+        </div>
+      </section>
+      <section class="hero2">
+        <div class="vertical_bar2">
+          <h2>¿Que esperás </br> para venir </br> a conocernos?</h2>
+        </div>
+        <div class="hero2__content">    
+        <div class="hero2__text1">
+        <h1 class="hero2__text">
+          Contamos con servicio de <br />
+          <span>Gestoría</span>
+        </h1>
+        </div>
+        <div class="hero2__text2">
+          <h2>Para que tu única preocupación </br> sea disfrutar de tu nueva moto</h2>
+          <div class="hero2__bar"></div>
+        </div>
+      </section>
+      <div class="horizontal_bar"></div>
+      <section class="hero3">
+        <div class="hero3__section1">
+          <div class="vertical_bar3">
+            <img src="images/gilera.png" alt="Logo Gilera">
+            <h2 class="vertical_text">Envíos a </br> Domicilio </h2>
+          </div>
+          <h2>Encontranos en</h2>
+          <div class="icons icon">
             <a href="https://www.facebook.com/maximotos.baradero.18"
               ><span class="flaticon-001-facebook"></span
             ></a>
@@ -49,8 +61,39 @@
               ><span class="flaticon-003-whatsapp"></span
             ></a>
           </div>
-        </footer>
-      </div>
+        </div>
+        <div class="hero3__content">
+          <div class="hero3__text1-wrapper">
+            <div class="text1-1">
+              <h2>El mejor servicio</h2>
+            </div>
+            <div class="text1-2">
+              <h2>de Post Venta</h2>
+            </div>
+          </div>
+          <div class="horizontal_bar3"></div>
+          <div class="hero3__motos">
+            <h2>Entrá a ver nuestra Motos!</h2>
+            <ul>
+              <li><a href="motos_nuevas.html">Motos Nuevas</a></li>
+              <li><a href="motos_usadas.html">Motos Usadas</a></li>
+            </ul>
+            <h2>Y la mayor variedad en cascos</h2>
+            <ul>
+              <li><a href="cascos.html">Cascos</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.15.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
   </body>
 </html>

@@ -276,6 +276,10 @@
   .hero3__section1 h2 {
     font-size: 1.5em;
   }
+  .vertical_bar3 img {
+    width: 60%;
+    margin-bottom: 30px;
+  }
   .vertical_bar3 .vertical_text {
     font-size: 2em;
   }
@@ -295,51 +299,26 @@
   /* ----------------------------Home 2 */
   .logo_maxi {
     width: 250px;
-    display: none;
+    display: block;
   }
   .navigation_bar {
     margin: 2%;
     justify-content: center;
-    display: none;
   }
   .navigation_bar a {
     font-size: 1.1em;
   }
   .wrapper_content__title {
-    display: none;
-  }
-  .wrapper_content__description {
-    display: none;
-  }
-  .wrapper_content__articlelist {
-    position: absolute;
-    display: block;
-    font-size: 1.4em;
-    margin: 30px;
-    bottom: 10px;
-    right: 10px;
-  }
-  .wrapper_content__articlelist li {
-    margin: 20px;
-  }
-  .image {
     display: block;
   }
-  .footer {
-    display: none;
-  }
+
   .footer_motos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .footer__text {
-    display: none;
-  }
-  .foooter__logo {
-    display: none;
-  }
+
   .foooter__logo a {
     margin: 0 auto;
   }
@@ -471,7 +450,7 @@
   }
   /* ----------------Cascos */
   .principal-section {
-    display: block;
+    grid-template-columns: 100%;
   }
 }
 
@@ -547,10 +526,10 @@
   .vertical_bar3 .vertical_text {
     font-size: 1.7em;
   }
-  .icons {
+  .icon {
     margin-top: 0;
   }
-  .icons [class^="flaticon-"]:before,
+  .icon [class^="flaticon-"]:before,
   [class*=" flaticon-"]:before,
   [class^="flaticon-"]:after,
   [class*=" flaticon-"]:after {
@@ -663,6 +642,18 @@
   }
   .acerca__content p {
     font-size: 1.1em;
+  }
+  .principal-section {
+    gap: 0;
+  }
+  .principal-product__text {
+    font-size: 1.7em;
+  }
+  .principal-product--top {
+    margin-top: 10px;
+  }
+  .banner {
+    margin-top: 20px;
   }
 }
 
