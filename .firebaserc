@@ -3,10 +3,3 @@
     "default": "maximotos"
   }
 }
-{
-  "hosting": {
-    "site": "maximotos",
-    "public": "public",
-    ...
-  }
-}
