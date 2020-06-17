@@ -1,65 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.15.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.15.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.15.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.15.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.15.1/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maxi Motos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/font/flaticon.css" />
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <ul class="hero__navbar">
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="gestoria.html">Gestoría</a></li>
+          </ul>
+    <div class="heros">
+      <section class="hero1">
+        <div class="vertical_bar">
+          <h2>Tu próxima<br>Moto está <br><span>Acá!</span></h2>
+        </div>
+        <div class="hero1__wrapper">
+          <h1 class="hero1__text">
+            Llevate tu moto solo <br /><span>con tu D.N.I.</span>
+          </h1>
+          <div class="hero1__bar"></div> 
+        </div>
+      </section>
+      <section class="hero2">
+        <div class="vertical_bar2">
+          <h2>¿Que esperás </br> para venir </br> a conocernos?</h2>
+        </div>
+        <div class="hero2__content">    
+        <div class="hero2__text1">
+        <h1 class="hero2__text">
+          Contamos con servicio de <br />
+          <span>Gestoría</span>
+        </h1>
+        </div>
+        <div class="hero2__text2">
+          <h2>Para que tu única preocupación </br> sea disfrutar de tu nueva moto</h2>
+          <div class="hero2__bar"></div>
+        </div>
+      </section>
+      <div class="horizontal_bar"></div>
+      <section class="hero3">
+        <div class="hero3__section1">
+          <div class="vertical_bar3">
+            <img src="images/gilera.png" alt="Logo Gilera">
+            <h2 class="vertical_text">Envíos a </br> Domicilio </h2>
+          </div>
+          <h2>Encontranos en</h2>
+          <div class="icons icon">
+            <a href="https://www.facebook.com/maximotos.baradero.18"
+              ><span class="flaticon-001-facebook"></span
+            ></a>
+            <a href="https://www.instagram.com/doriamaximiliano/"
+              ><span class="flaticon-011-instagram"></span
+            ></a>
+            <a href="https://api.whatsapp.com/send?phone=+5433295784440"
+              ><span class="flaticon-003-whatsapp"></span
+            ></a>
+          </div>
+        </div>
+        <div class="hero3__content">
+          <div class="hero3__text1-wrapper">
+            <div class="text1-1">
+              <h2>El mejor servicio</h2>
+            </div>
+            <div class="text1-2">
+              <h2>de Post Venta</h2>
+            </div>
+          </div>
+          <div class="horizontal_bar3"></div>
+          <div class="hero3__motos">
+            <h2>Entrá a ver nuestra Motos!</h2>
+            <ul>
+              <li><a href="motos_nuevas.html">Motos Nuevas</a></li>
+              <li><a href="motos_usadas.html">Motos Usadas</a></li>
+            </ul>
+            <h2>Y la mayor variedad en cascos</h2>
+            <ul>
+              <li><a href="cascos.html">Cascos</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.1/firebase-app.js"></script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.15.1/firebase-analytics.js"></script>
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
   </body>
 </html>
