@@ -283,10 +283,10 @@
   .vertical_bar3 .vertical_text {
     font-size: 2em;
   }
-  .icons {
+  .icon {
     margin: 20px 0;
   }
-  .icons [class^="flaticon-"]:before,
+  .icon [class^="flaticon-"]:before,
   [class*=" flaticon-"]:before,
   [class^="flaticon-"]:after,
   [class*=" flaticon-"]:after {
@@ -615,13 +615,15 @@
     width: 240px;
   }
   /* --------------------Parte Contacto */
-  .contact__map_personalized {
+  .contact {
+    width: 100%;
+  }
+  .contact__map {
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
+    width: 95%;
   }
-  .contact__map_small {
-    display: none;
-  }
+
   .contact__content p {
     font-size: 1em;
     margin: 5px auto;
@@ -629,6 +631,11 @@
   .contact__content h2 {
     font-size: 1.6;
     margin: 0;
+  }
+  .datos {
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
   }
   /* ----------------Parte Acerca de Nosotros */
   .acerca__title {
