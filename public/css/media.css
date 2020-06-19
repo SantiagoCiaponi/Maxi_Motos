@@ -208,10 +208,22 @@
   .contact__content {
     margin: auto;
   }
-  /* ------------------------Acerca de Nosotros */
-  .foooter {
-    margin-top: 200px;
+  .datos {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 30px;
   }
+  .contact .contact__content p {
+    text-align: center;
+  }
+  .contact .contact__content h3 {
+    text-align: center;
+  }
+  /* ------------------------Acerca de Nosotros */
+  /* .foooter {
+    margin-top: 200px;
+  } */
 }
 
 /* -----------------------------------Parte 768px */

@@ -27,18 +27,13 @@ function Motos(
 //-------------------Motos
 
 const rumi = new Motos(
-  "Rumi Sport",
+  "Rumi Formichino",
   `${url}/motos_usadas/rumy1.jpg`,
   `${url}/motos_usadas/rumy2.jpg`,
   `${url}/motos_usadas/rumy3.jpg`,
-  `La producción comenzó a finales de 1950, pero fue presentado al público en 1951.
-   El motor se mejoró considerablemente al estar equipadas con pistón deflector, que sucesivamente 
-   se montaron en todos los modelos posteriores de la firma. `,
-  `C7.0 CV/6 000 rpm, relación de compresión 7.8:1, culatas de aluminio, carburador MB 22A, bastidor
-   doble cuna, neumáticos D/T 2.50 x 19" (2.375 x 21" opcional), sillín biplaza, tanque de 14 L 
-   (consumo 3.4 L/100 km), velocidad máxima 100 km/h y 90 kg de peso`,
-  `En 1953, 1955 y 1956 fueron los años en los que se mejoró este modelo al hacer cambios en la carburación
-   y en el bastidor así como de la suspensión trasera y montando llantas de hierro.`,
+  `Moto solo de exposición. `,
+  ``,
+  ``,
   "botonrumi"
 );
 

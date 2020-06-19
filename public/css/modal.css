@@ -46,6 +46,7 @@ figure {
 }
 
 .modal__content {
+  display: block;
   margin: 5px 20px;
   font-size: 1.2em;
 }
