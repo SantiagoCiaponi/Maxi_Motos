@@ -50,7 +50,7 @@ a {
   height: auto;
 }
 .hero1 {
-  background-image: url("https://imgur.com/Ph9C4CH.png");
+  background-image: url("../images/bene.png");
   background-size: cover;
   background-position: center;
   display: grid;
